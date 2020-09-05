@@ -7,11 +7,11 @@
 
 .body {
   line-height: 1.5;
-  font-family: Helvetica,Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .bg-red {
-  background-color: #D35266;
+  background-color: #d35266;
 }
 
 .bg-black {
@@ -19,15 +19,19 @@
 }
 
 .bg-gray {
-  background-color: #F6F6F6;
+  background-color: #888888;
 }
 
 .bg-white {
   background-color: #fff;
 }
 
+.bg-lightgray {
+  background-color: #F6F6F6;
+}
+
 .f-red {
-  color: #D35266;
+  color: #d35266;
 }
 
 .f-gray {
@@ -54,8 +58,20 @@
   flex-direction: row;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
+img {
+  object-fit: cover;
+}
+
+hr {
+  border: #888888 thick solid;
+}
+
 .hero {
-  padding: 20px;
+  padding: 60px 20px 40px 20px;
   margin: 20px 0;
 }
 
@@ -63,6 +79,59 @@
   margin: auto;
 }
 
-.hero form select, .hero form input {
+.hero form select,
+.hero form input,
+.hero form button {
   margin: 0 1px 0 0;
+  padding: 5px 12px;
+  border: none;
+}
+
+.hero form h1 {
+  font-size: 2em;
+}
+
+.landing {
+  width: 60%;
+  margin: auto;
+}
+
+.landing .carousl-img {
+  width: 40%;
+}
+
+.landing .carousl-description {
+  width: 60%;
+}
+
+.landing .carousl-img img {
+  width: 100%;
+  height: 25vh;
+}
+
+.landing-results {
+  border-top: #888888 solid;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.landing-results-item {
+  width: 18%;
+  min-width: 200px;
+  margin-bottom: 20px;
+  box-shadow: 1px 5px 5px 0 #888888;
+}
+
+.landing-results-item img {
+  width: 100%;
+}
+
+.landing-results-item:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+.results {
+  width: 90%;
+  margin: auto;
 }
