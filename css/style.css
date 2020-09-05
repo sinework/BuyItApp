@@ -9,3 +9,60 @@
   line-height: 1.5;
   font-family: Helvetica,Arial, sans-serif;
 }
+
+.bg-red {
+  background-color: #D35266;
+}
+
+.bg-black {
+  background-color: #383838;
+}
+
+.bg-gray {
+  background-color: #F6F6F6;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.f-red {
+  color: #D35266;
+}
+
+.f-gray {
+  color: #888888;
+}
+
+.f-black {
+  color: #383838;
+}
+
+.f-white {
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-c {
+  flex-direction: column;
+}
+
+.flex-r {
+  flex-direction: row;
+}
+
+.hero {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.hero form {
+  margin: auto;
+}
+
+.hero form select, .hero form input {
+  margin: 0 1px 0 0;
+}

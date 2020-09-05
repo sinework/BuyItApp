@@ -18,4 +18,58 @@ $bg-lightgrey:#F6F6F6;
 }
 
 // css reset ends here
+
+//General styles
+//background colors
+.bg-red{
+background-color: $bg-red;
+}
+.bg-black{
+    background-color: $bg-dark;
+}
+.bg-gray{
+    background-color: $bg-lightgrey;
+}
+.bg-white{
+    background-color: $bg-white;
+}
+// Font colors
+
+.f-red{
+    color: $bg-red;
+}
+.f-gray{
+    
+        color: $bg-gray;
+    
+}
+.f-black{
+    color:$bg-dark;
+}
+.f-white{
+    color:$bg-white
+}
+//alignments
+.flex{
+    display: flex;
+}
+.flex-c{
+    flex-direction: column;
+    
+}
+.flex-r{
+    flex-direction: row;
+}
 // Styling the nav
+
+        
+.hero{
+padding: 20px;
+margin: 20px 0;
+form{
+    margin: auto;
+    select,input{
+        margin:0 1px 0 0;
+    }
+}
+}
