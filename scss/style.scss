@@ -1,0 +1,21 @@
+$bg-red:#D35266;
+$bg-gray:#888888;
+$bg-dark:#383838;
+$bg-white:#fff;
+$bg-lightgrey:#F6F6F6;
+
+// css reset
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.body{
+    line-height: 1.5;
+    font-family:  Helvetica,Arial, sans-serif;
+}
+
+// css reset ends here
+// Styling the nav
