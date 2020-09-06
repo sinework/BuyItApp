@@ -13,12 +13,16 @@ $bg-lightgrey:#F6F6F6;
   list-style: none;
 }
 
-.body {
+body,footer {
   line-height: 1.5;
   font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
  
 }
 
+footer{
+  border-top: medium $bg-red;
+}
 // css reset ends here
 
 //General styles
@@ -76,59 +80,91 @@ hr{
 }
 // Styling the nav
 
-.hero {
-  padding: 60px 20px 40px 20px;
-  margin: 20px 0;
-  form {
-    margin: auto;
-    select,
-    input,
-    button {
-      margin: 0 1px 0 0;
-      padding: 5px 12px;
-      border: none;
-    }
-    h1 {
-      font-size: 2em;
-    }
+
+// Break points
+
+
+@media only screen and (max-width: 576px) {
+.hero{
+  width: 100%;
+  
+  
+}
+
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .hero{
+    width: 100%;
+    
   }
 }
-.landing {
- width: 60%;
- margin: auto;
- .carousl-img{
-width: 40%;
- }
- .carousl-description{
-     width: 60%;
- }
- .carousl-img img{
-     width: 100%;
-     height: 25vh;
 
-
- }
-}
-
-.landing-results{
-    border-top:  $bg-gray solid;
-    margin-top: 20px;
-    padding-top: 20px;}
-    .landing-results-item{
-        width: 18%;
-        min-width: 200px;
-        margin-bottom: 20px;
-        box-shadow: 1px 5px 5px 0 $bg-gray;
-        
-    }
-    .landing-results-item img{
-        width: 100%;
-    }
-    .landing-results-item:hover{
-        transform: scale(1.2);
-        transition: 0.2s;
-    }
-    .results{
-        width: 90%;
-        margin: auto;
-    }
+// @media only screen and (min-width: 769px) {
+//   .hero {
+//     padding: 60px 20px 40px 20px;
+//     margin: 20px 0;
+//     form {
+//       margin: auto;
+//       select,
+//       input,
+//       button {
+//         margin: 0 1px 0 0;
+//         padding: 5px 12px;
+//         border: none;
+//       }
+//       h1 {
+//         font-size: 2em;
+//       }
+//     }
+//   }
+//   .landing {
+//    width: 60%;
+//    margin: auto;
+//    .carousl-img{
+//   width: 40%;
+//    }
+//    .carousl-description{
+//        width: 60%;
+//    }
+//    .carousl-img img{
+//        width: 100%;
+//        height: 25vh;
+  
+  
+//    }
+//   }
+  
+//   .landing-results{
+//       border-top:  $bg-gray solid;
+//       margin-top: 20px;
+//       padding-top: 20px;}
+//       .landing-results-item{
+//           width: 18%;
+//           min-width: 200px;
+//           margin-bottom: 20px;
+//           box-shadow: 1px 5px 5px 0 $bg-gray;
+          
+//       }
+//       .landing-results-item img{
+//           width: 100%;
+//       }
+//       .landing-results-item:hover{
+//           transform: scale(1.2);
+//           transition: 0.2s;
+//       }
+//       .results{
+//           width: 90%;
+//           margin: auto;
+//       }
+//       .footer{
+//     .footer-top{
+//       border-top:$bg-gray solid medium ;
+//       margin-top: 20px;
+//     }
+  
+//   .foot-icons i{
+//     transform: scale(1.5);
+//   }}
+  
+// }

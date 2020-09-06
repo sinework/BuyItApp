@@ -5,9 +5,14 @@
   list-style: none;
 }
 
-.body {
+body, footer {
   line-height: 1.5;
   font-family: Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+footer {
+  border-top: medium #d35266;
 }
 
 .bg-red {
@@ -70,68 +75,14 @@ hr {
   border: #888888 thick solid;
 }
 
-.hero {
-  padding: 60px 20px 40px 20px;
-  margin: 20px 0;
+@media only screen and (max-width: 576px) {
+  .hero {
+    width: 100%;
+  }
 }
 
-.hero form {
-  margin: auto;
-}
-
-.hero form select,
-.hero form input,
-.hero form button {
-  margin: 0 1px 0 0;
-  padding: 5px 12px;
-  border: none;
-}
-
-.hero form h1 {
-  font-size: 2em;
-}
-
-.landing {
-  width: 60%;
-  margin: auto;
-}
-
-.landing .carousl-img {
-  width: 40%;
-}
-
-.landing .carousl-description {
-  width: 60%;
-}
-
-.landing .carousl-img img {
-  width: 100%;
-  height: 25vh;
-}
-
-.landing-results {
-  border-top: #888888 solid;
-  margin-top: 20px;
-  padding-top: 20px;
-}
-
-.landing-results-item {
-  width: 18%;
-  min-width: 200px;
-  margin-bottom: 20px;
-  box-shadow: 1px 5px 5px 0 #888888;
-}
-
-.landing-results-item img {
-  width: 100%;
-}
-
-.landing-results-item:hover {
-  transform: scale(1.2);
-  transition: 0.2s;
-}
-
-.results {
-  width: 90%;
-  margin: auto;
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .hero {
+    width: 100%;
+  }
 }

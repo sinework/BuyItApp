@@ -15,10 +15,12 @@
   <body>
     <header class="header">
       <nav class="navbar navbar-expand-sm bg-black fixed-top mb-5">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand f-gray" href="#"
             ><i class="fa fa-cart-plus" aria-hidden="true"></i> BuyItApp
           </a>
+          <button class="navbar-toggler " data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon f-red bg-lightgray"><i class="fa fa-bars" aria-hidden="true"></i></span></button>
+          <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item mx-lg-2 ">
               <a class="nav-link home-nav  f-red" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
@@ -41,25 +43,28 @@
             
           </ul>
         </div>
+        </div>
       </nav>
-      <section class="hero bg-red flex flex-c mt-5">
-          <h1 class="mx-auto f-white"> <i class="fa fa-wrench fa-2x" aria-hidden="true"></i> BuyItApp</h1>
-          <p class="mx-auto f-white">All your Equipment needs met in One Place</p>
-          <form action="submit ">
-            <select name="Category-selector" class="bg-white" id="cat-select">
-                <option value="0">All equipments</option>
-                <option value="1">Heavy machinaries</option>
-                <option value="2">Handy tools</option>
 
-
-            </select>
-            <input type="text" class="m-0 bg-white" placeholder="What are you looking for">
-            <input type="text" class="m-0 bg-white" placeholder="Search brands">
-            <button class="bg-black f-gray">Search</button>
-          </form>
-      </section>
     </header>
     <main>
+      <section class="hero bg-red w-100 mt-5">
+        <h1 class="mx-auto f-white"> <i class="fa fa-wrench fa-2x" aria-hidden="true"></i> BuyItApp</h1>
+        <p class="mx-auto f-white">All your Equipment needs met in One Place</p>
+        <div class="flex flex-r">
+        <form action="submit " class="">
+          <select name="Category-selector" class="bg-white p-sm-5 p-md-5" id="cat-select">
+              <option value="0">All equipments</option>
+              <option value="1">Heavy machinaries</option>
+              <option value="2">Handy tools</option>
+
+
+          </select>
+          <input type="text" class="m-0 bg-white p-sm-5  p-md-5" placeholder="What are you looking for">
+          <input type="text" class="m-0 bg-white p-sm-5 p-md-5" placeholder="Search brands">
+          <button class="bg-black f-gray">Search</button>
+        </form></div>
+    </section>
         <section class="landing">
             <h3 class="ml-5">HOT ADS</h3>
           <article class="carousl flex flex-r">
@@ -274,7 +279,89 @@
 
 
     </main>
+<footer class="flex flex-c footer mt-4 pt-4">
+  <div class="footer-top flex flex-r">
+  <div class="footer-left flex flex-c w-25 m-3">
+    <h1 class="mx-auto f-gray"> <i class="fa fa-wrench " aria-hidden="true"></i> BuyItApp</h1>
+    <p class="f-gray"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. A numquam corporis praesentium sint repudiandae suscipit vel quidem, ducimus blanditiis voluptatibus accusamus itaque dolor illo laborum minima qui, ad sequi. Soluta iure molestiae in hic necessitatibus assumenda eius sit sunt dolor!</p>
+  </div>
+  <div class="footer-center flex flex-c w-25 m-3">
+    <h1>Categories</h1>
+    <div class="flex flex-r">
+      <div class="cat-left">
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+      </div>
+      <div class="cat-right">
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-right flex flex-c w-25 m-3">
+    <h1>Navigation</h1>
+    <div class="navigation-list">
+      
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+        <a href="#" class="d-block m-2">Lorem</a>
+      
+    </div>
+  </div>
+  <div class="footer-country-info w-25 m-3">
+    <div class="country flex flex-c">
+      <div class="flex flex-r">
+      <p class="">country</p>
+      <select class="" name="country" id="c">
+        <option value="0">Ethiopia</option>
+        <option value="0">Eriteria</option>
+        <option value="0">Kenya</option>
+      </select>
+    </div>
+    <div class="flex flex-r">
+      <p class="">country</p>
+      <select class="" name="country" id="c">
+        <option value="0">Ethiopia</option>
+        <option value="0">Eriteria</option>
+        <option value="0">Kenya</option>
+      </select>
+    </div>
+    <div class="flex flex-r">
+      <p class="">country</p>
+      <select class="" name="country" id="c">
+        <option value="0">Ethiopia</option>
+        <option value="0">Eriteria</option>
+        <option value="0">Kenya</option>
+      </select>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="footer-bottom px-4 footer-top pt-2 justify-content-between  flex flex-r">
+  <div>
+    <h5 class="helv-nl text-suvagray">Copyright All rights reserved</h5>
+  </div>
+  <div class="foot-icons d-flex f-gray w-25">
+    <ul class="d-flex w-100 justify-content-between">
+      <li><a class="text-muted" href="#"><i class="fa  fa-facebook-square"></i></a></li>
+      <li><a class="text-muted" href="#"><i class="fa  fa-twitter"></i></a></li>
+      <li><a class="text-muted" href="#"><i class="fa  fa-instagram"></i></a></li>
+      <li><a class="text-muted" href="#"><i class="fa  fa-tumblr"></i></a></li>
+      <li><a class="text-muted" href="#"><i class="fa  fa-linkedin"></i></a></li>
+    </ul>
+  </div>
 
+  </div>
+</div>
+</footer>
 
     <script
       src="https://kit.fontawesome.com/89faee3931.js"
