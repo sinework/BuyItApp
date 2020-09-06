@@ -13,7 +13,7 @@ $bg-lightgrey:#F6F6F6;
   list-style: none;
 }
 
-body,footer {
+body,footer,main {
   line-height: 1.5;
   font-family: Helvetica, Arial, sans-serif;
   width: 100%;
@@ -87,8 +87,15 @@ hr{
 @media only screen and (max-width: 576px) {
 .hero{
   width: 100%;
-  
-  
+   
+}
+.landing{
+  .carousl-item{
+   flex-direction: column;
+  }
+  .landing-icon{
+    display: none;
+  }
 }
 
 }
