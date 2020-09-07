@@ -86,7 +86,15 @@ hr{
 
 @media only screen and (max-width: 576px) {
 .hero{
-  width: 100%;
+  width:100vw ;
+  padding: 20px;
+  h1{
+    text-align: center;
+    margin: auto 20px;
+  }
+  .hero-form{
+    flex-direction: column;
+  }
    
 }
 .landing{
