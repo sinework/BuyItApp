@@ -1,11 +1,11 @@
 ## Capstone
 
-![screenshot](./assets/images/sc1.PNG)
-![screenshot](./assets/images/sc2.PNG)
-![screenshot](./assets/images/sc3.PNG)
-![screenshot](./assets/images/sc4.PNG)
-![screenshot](./assets/images/sc5.PNG)
-![screenshot](./assets/images/sc6.PNG)
+![screenshot](./assets/imgs/sc1.PNG)
+![screenshot](./assets/imgs/sc2.PNG)
+![screenshot](./assets/imgs/sc3.PNG)
+![screenshot](./assets/imgs/sc4.PNG)
+![screenshot](./assets/imgs/sc5.PNG)
+![screenshot](./assets/imgs/sc6.PNG)
 
 </h1>This is an e-commerce website developed for a construction equipments vendor for as  the capstone project for the microverse html/css track</h1>
 
