@@ -1,4 +1,4 @@
-## Capstone
+## BuyItApp (an ecommerce site for construction equipments sale)
 
 ![screenshot](./assets/imgs/sc1.PNG)
 ![screenshot](./assets/imgs/sc2.PNG)
