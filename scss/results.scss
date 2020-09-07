@@ -13,6 +13,7 @@
   .main-grid {
     display: grid;
     grid-template-columns: 30% 70%;
+    grid-column-gap: 40px;
 
     .landing {
        
