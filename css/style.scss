@@ -1,33 +1,51 @@
-@import "results.scss";
+// @import "results.scss";
 // font imports
 @font-face {
-  font-family: 'gotham-bold';
-  src: url('../fonts/gothambold/gothambold1.eot');
-  src: local('gotham-bold'), url('../fonts/gothambold/gothambold1.woff') format('woff');
+  font-family: "gotham-bold";
+  src: url("../fonts/gothambold/gothambold1.eot");
+  src:
+    local("gotham-bold"),
+    url("../fonts/gothambold/gothambold1.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'gotham-rounded-light';
-  src: url('../fonts/Gotham-Rounded-Light/GothamRoundedLight.eot');
-  src: local('gotham-rounded-light'), url('../fonts/Gotham-Rounded-Light/GothamRoundedLight.woff') format('woff'), url('../fonts/Gotham-Rounded-Light/GothamRoundedLight.woff2') format('woff2');
+  font-family: "gotham-rounded-light";
+  src: url("../fonts/Gotham-Rounded-Light/GothamRoundedLight.eot");
+  src:
+    local("gotham-rounded-light"),
+    url("../fonts/Gotham-Rounded-Light/GothamRoundedLight.woff") format("woff"),
+    url("../fonts/Gotham-Rounded-Light/GothamRoundedLight.woff2")
+    format("woff2");
 }
 
 @font-face {
-  font-family: 'Helvetica-Neue-Light';
-  src: url('../fonts/Helvetica-Neue-Light/HelveticaNeueLight.eot');
-  src: local('Helvetica Neue Light'), url('../fonts/Helvetica-Neue-Light/HelveticaNeueLight.woff') format('woff'), url('../fonts/Helvetica-Neue-Light/HelveticaNeueLight.woff2') format('woff2');
+  font-family: "Helvetica-Neue-Light";
+  src: url("../fonts/Helvetica-Neue-Light/HelveticaNeueLight.eot");
+  src:
+    local("Helvetica Neue Light"),
+    url("../fonts/Helvetica-Neue-Light/HelveticaNeueLight.woff") format("woff"),
+    url("../fonts/Helvetica-Neue-Light/HelveticaNeueLight.woff2")
+    format("woff2");
 }
 
 @font-face {
-  font-family: 'Helvetica-Neue-Medium';
-  src: url('../fonts/Helvetica-Neue-Medium/HelveticaNeueMedium.eot');
-  src: local('Helvetica Neue Medium'), url('../fonts/Helvetica-Neue-Medium/HelveticaNeueMedium.woff') format('woff'), url('../fonts/Helvetica-Neue-Medium/HelveticaNeueMedium.woff2') format('woff2');
+  font-family: "Helvetica-Neue-Medium";
+  src: url("../fonts/Helvetica-Neue-Medium/HelveticaNeueMedium.eot");
+  src:
+    local("Helvetica Neue Medium"),
+    url("../fonts/Helvetica-Neue-Medium/HelveticaNeueMedium.woff")
+    format("woff"),
+    url("../fonts/Helvetica-Neue-Medium/HelveticaNeueMedium.woff2")
+    format("woff2");
 }
 
 @font-face {
-  font-family: 'Helvetica-Neue-Bold';
-  src: url('../fonts/Helvetica-Neue-Bold/HelveticaNeueBold.eot');
-  src: local('Helvetica-Neue-Bold'), url('../fonts/Helvetica-Neue-Bold/HelveticaNeueBold.woff') format('woff'), url('../fonts/Helvetica-Neue-Bold/HelveticaNeueBold.woff2') format('woff2');
+  font-family: "Helvetica-Neue-Bold";
+  src: url("../fonts/Helvetica-Neue-Bold/HelveticaNeueBold.eot");
+  src:
+    local("Helvetica-Neue-Bold"),
+    url("../fonts/Helvetica-Neue-Bold/HelveticaNeueBold.woff") format("woff"),
+    url("../fonts/Helvetica-Neue-Bold/HelveticaNeueBold.woff2") format("woff2");
 }
 
 $bg-red: #d35266;
@@ -62,17 +80,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'gotham-bold';
+  font-family: "gotham-bold";
   color: $bg-gray;
 }
 
 p {
-  font-family: 'Helvetica-Neue-Medium';
+  font-family: "Helvetica-Neue-Medium";
 }
 
 a {
   text-decoration: none;
-  font-family: 'Helvetica-Neue-Light';
+  font-family: "Helvetica-Neue-Light";
 }
 
 footer {
@@ -178,10 +196,6 @@ hr {
   .landing {
     width: 100%;
 
-    .carousl-item {
-      flex-direction: column;
-    }
-
     img {
       width: 100%;
     }
@@ -206,12 +220,16 @@ hr {
     }
   }
 
+  .carousl-item {
+    flex-direction: column;
+  }
+
   .footer {
     margin-top: 10px;
     background-color: $bg-white;
 
     .footer-top {
-      flex-direction: column;
+      flex-direction: row;
       border-top: bold $bg-red;
 
       .footer-left p {
@@ -232,11 +250,29 @@ hr {
       justify-content: space-evenly;
     }
   }
+  //for the results page
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-left {
+    min-width: 70%;
+    padding: 5px;
+  }
+
+  .country {
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+  header a {
+    font-size: 12px;
+  }
+
   .hero {
-    padding: 20px;
+    padding: 40px 15px;
 
     form {
       text-align: center;
@@ -246,7 +282,7 @@ hr {
       input,
       button {
         margin: 0 1px 0 0;
-        padding: 5px 12px;
+        padding: 5px 3px;
         border: none;
       }
     }
@@ -300,12 +336,38 @@ hr {
     }
 
     .country {
-      margin-top: 70px;
+      margin-top: 55px;
     }
+  }
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .main-result {
+      border-top: medium gray solid;
+      margin-top: 20px;
+
+      .carousl-item {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        border-bottom: gray thin solid;
+      }
+    }
+  }
+
+  .results-hero-h1,
+  .results-hero-p,
+  .results-hero-form {
+    text-align: center;
   }
 }
 
 @media only screen and (min-width: 769px) {
+  header a {
+    font-size: 13px;
+  }
+
   .hero {
     padding: 60px 20px 40px 20px;
     margin: 20px 0;
@@ -393,5 +455,21 @@ hr {
     .foot-icons i {
       transform: scale(1.5);
     }
+  }
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    .carousl-item {
+      padding-top: 20px;
+      padding-bottom: 5px;
+      border-left: gray thin solid;
+    }
+  }
+
+  .results-hero-h1,
+  .results-hero-p {
+    padding-left: 90px;
   }
 }
