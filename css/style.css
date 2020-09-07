@@ -5,7 +5,9 @@
   list-style: none;
 }
 
-body, footer, main {
+body,
+footer,
+main {
   line-height: 1.5;
   font-family: Helvetica, Arial, sans-serif;
   width: 100%;
@@ -24,7 +26,7 @@ footer {
 }
 
 .bg-gray {
-  background-color: #888888;
+  background-color: #888;
 }
 
 .bg-white {
@@ -32,7 +34,7 @@ footer {
 }
 
 .bg-lightgray {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 .f-red {
@@ -40,7 +42,7 @@ footer {
 }
 
 .f-gray {
-  color: #888888;
+  color: #888;
 }
 
 .f-black {
@@ -72,7 +74,7 @@ img {
 }
 
 hr {
-  border: #888888 thick solid;
+  border: #888 thick solid;
 }
 
 @media only screen and (max-width: 576px) {
@@ -80,16 +82,20 @@ hr {
     width: 100vw;
     padding: 20px;
   }
+
   .hero h1 {
     text-align: center;
     margin: auto 20px;
   }
+
   .hero .hero-form {
     flex-direction: column;
   }
+
   .landing .carousl-item {
     flex-direction: column;
   }
+
   .landing .landing-icon {
     display: none;
   }
