@@ -272,19 +272,20 @@ hr {
   }
 
   .hero {
-    padding: 40px 15px;
+    padding: 40px 10px;
 
     form {
       text-align: center;
       margin: auto;
 
       select,
-      input,
+      .hero-input,
       button {
         margin: 0 1px 0 0;
-        padding: 5px 3px;
+        padding: 5px 6px;
         border: none;
       }
+      
     }
   }
 
