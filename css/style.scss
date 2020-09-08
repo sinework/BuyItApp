@@ -194,8 +194,6 @@ hr {
   }
   //////////Landing
   .landing {
-   
-
     .carousl-description {
       flex-direction: column;
     }
@@ -206,8 +204,6 @@ hr {
   }
 
   .landing-results {
-   
-
     .landing-icon,
     .results-icon {
       display: none;
@@ -217,9 +213,13 @@ hr {
   .carousl-item {
     flex-direction: column;
   }
-.landing,.landing-results img, .landing img{
-  width: 100%;
-}
+
+  .landing,
+  .landing-results img,
+  .landing img {
+    width: 100%;
+  }
+
   .footer {
     margin-top: 10px;
     background-color: $bg-white;
@@ -281,7 +281,6 @@ hr {
         padding: 5px 6px;
         border: none;
       }
-      
     }
   }
 
