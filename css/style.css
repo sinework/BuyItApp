@@ -143,86 +143,61 @@ hr {
     width: 100%;
     padding: 20px;
   }
-
   .hero .hero-form {
     flex-direction: column;
   }
-
   .hero .hero-wrench {
     transform: scale(0.8);
   }
-
   .hero .hero-input,
   .hero .button {
     padding: 5px 0;
   }
-
-  .landing {
-    width: 100%;
-  }
-
-  .landing img {
-    width: 100%;
-  }
-
   .landing .carousl-description {
     flex-direction: column;
   }
-
   .landing .landing-icon {
     display: none;
   }
-
-  .landing-results img {
-    width: 100%;
-  }
-
   .landing-results .landing-icon,
   .landing-results .results-icon {
     display: none;
   }
-
   .carousl-item {
     flex-direction: column;
   }
-
+  .landing, .landing-results img, .landing img {
+    width: 100%;
+  }
   .footer {
     margin-top: 10px;
     background-color: #fff;
   }
-
   .footer .footer-top {
     flex-direction: row;
     border-top: bold #d35266;
   }
-
   .footer .footer-top .footer-left p {
     text-align: justify;
   }
-
   .footer .footer-bottom {
     flex-direction: column;
   }
-
   .footer .footer-bottom .copy-right {
     text-align: center;
   }
-
   .footer .foot-icons {
     flex-direction: row;
     justify-content: space-evenly;
   }
-
   .main-grid {
     display: grid;
     grid-template-columns: 1fr;
   }
-
   .footer-left {
     min-width: 70%;
     padding: 5px;
   }
-
   .country {
     margin-top: 50px;
   }
@@ -232,90 +207,72 @@ hr {
   header a {
     font-size: 12px;
   }
-
   .hero {
-    padding: 40px 15px;
+    padding: 40px 10px;
   }
-
   .hero form {
     text-align: center;
     margin: auto;
   }
-
   .hero form select,
-  .hero form input,
+  .hero form .hero-input,
   .hero form button {
     margin: 0 1px 0 0;
-    padding: 5px 3px;
+    padding: 5px 6px;
     border: none;
   }
-
   .landing {
     width: 100%;
     padding: 20px;
   }
-
   .landing .carousl-item {
     flex-direction: row;
   }
-
   .landing img {
     width: 100%;
   }
-
   .landing .carousl-description {
     flex-direction: column;
   }
-
   .landing .landing-icon {
     display: block;
   }
-
   .results {
     justify-content: space-between;
     padding: 0 10px;
   }
-
   .results .results-icon {
     display: none;
   }
-
   .landing-results-item {
     width: 47%;
     margin-top: 10px;
     border: thin solid #f6f6f6;
   }
-
   .footer {
     margin-top: 10px;
     background-color: #f6f6f6;
   }
-
   .footer .footer-top .footer-left {
     width: 38%;
     padding: 5px;
   }
-
   .footer .country {
     margin-top: 55px;
   }
-
   .main-grid {
     display: grid;
     grid-template-columns: 1fr;
   }
-
   .main-grid .main-result {
     border-top: medium gray solid;
     margin-top: 20px;
   }
-
   .main-grid .main-result .carousl-item {
     padding-top: 20px;
     padding-bottom: 5px;
     border-bottom: gray thin solid;
   }
-
   .results-hero-h1,
   .results-hero-p,
   .results-hero-form {
@@ -327,16 +284,13 @@ hr {
   header a {
     font-size: 13px;
   }
-
   .hero {
     padding: 60px 20px 40px 20px;
     margin: 20px 0;
   }
-
   .hero form {
     margin: auto;
   }
-
   .hero form select,
   .hero form input,
   .hero form button {
@@ -344,88 +298,71 @@ hr {
     padding: 5px 12px;
     border: none;
   }
-
   .hero form h1 {
     font-size: 2em;
   }
-
   .landing {
     width: 85%;
     margin: auto;
     padding: 20px;
   }
-
   .landing .carousl-description {
     flex-direction: column;
   }
-
   .landing .landing-icon {
     display: block;
   }
-
   .landing-results {
     border-top: #888 solid;
     margin-top: 20px;
     padding-top: 20px;
   }
-
   .landing-results-item {
     width: 17%;
     margin-bottom: 20px;
     box-shadow: 1px 5px 5px 0 #888;
     justify-content: center;
   }
-
   .landing-results-item img {
     width: 100%;
   }
-
   .landing-results-item:hover {
     transform: scale(1.2);
     transition: 0.2s;
   }
-
   .results {
     width: 90%;
     margin: auto;
     justify-content: space-between;
     padding: 0 10px;
   }
-
   .results .results-icon {
     display: block;
   }
-
   .footer .footer-top {
     border-top: #888 solid medium;
     margin-top: 20px;
     justify-content: space-evenly;
   }
-
   .footer .footer-top .footer-left {
     width: 38%;
     padding: 5px;
   }
-
   .footer .footer-top .country {
     margin-top: 70px;
   }
-
   .footer .foot-icons i {
     transform: scale(1.5);
   }
-
   .main-grid {
     display: grid;
     grid-template-columns: 30% 70%;
   }
-
   .main-grid .carousl-item {
     padding-top: 20px;
     padding-bottom: 5px;
     border-left: gray thin solid;
   }
-
   .results-hero-h1,
   .results-hero-p {
     padding-left: 90px;
